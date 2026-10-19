@@ -1,0 +1,5 @@
+# Only needed to train models locally and to open the MLflow UI.
+# The service and the CI pipeline do not need any of this.
+-r requirements.txt
+
+mlflow

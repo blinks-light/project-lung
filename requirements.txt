@@ -1,0 +1,12 @@
+# Runtime dependencies: exactly what the FastAPI service imports.
+# Versions are pinned so your machine, CI and the image install the same bytes.
+fastapi==0.146.0
+uvicorn==0.54.0
+pydantic==2.14.1
+python-multipart==0.0.32
+pillow==13.0.0
+scikit-learn==1.9.1
+joblib==1.6.0
+numpy==2.5.4
+python-dotenv==1.2.4
+PyMySQL[rsa]==1.2.3

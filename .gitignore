@@ -1,0 +1,26 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+pytest-of-*/
+pip-*/
+playwright-artifacts-*/
+.coverage
+htmlcov/
+.ruff_cache/
+
+# Local databases and experiment output
+*.db
+*.db-*
+*.sqlite*
+mlflow.db
+mlruns/
+reports/
+
+# Raw data never enters Git. The derived dataset is tracked by DVC, and DVC
+# writes data/.gitignore so its content stays out of Git as well.
+data/raw/
+
+# Local configuration and secrets
+.env
+.DS_Store
